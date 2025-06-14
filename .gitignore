@@ -1,0 +1,12 @@
+# Archivos temporales de Windows
+Thumbs.db
+ehthumbs.db
+
+# Archivos de configuración de carpetas de Windows
+Desktop.ini
+
+# Papelera de reciclaje
+$RECYCLE.BIN/
+
+# Archivos de índice de búsquedas de Windows
+/*.search-ms
