@@ -1,0 +1,2482 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  background-color: #dfdfdf;
+  overflow: hidden;
+}
+
+.home .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 160px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -1.00px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  background-color: #ffffff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #b5b5b5;
+}
+
+.home .logo {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .search-field {
+  display: flex;
+  width: 372px;
+  height: 56px;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.home .icon-search {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.home .text-wrapper {
+  position: relative;
+  width: fit-content;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #646464;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.home .navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 52px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  opacity: 0.3;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .icons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .img {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.home .icon-cart {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+}
+
+.home .cart {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+
+.home .banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px 213px;
+  padding: 0px 160px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    95deg,
+    rgba(33, 28, 36, 1) 0%,
+    rgba(33, 28, 36, 1) 100%
+  );
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.home .content {
+  display: flex;
+  min-width: 400px;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .titles {
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  opacity: 0.4;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.home .iphone-pro {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: -0.96px;
+  line-height: 96px;
+}
+
+.home .span {
+  font-weight: 100;
+  letter-spacing: -0.92px;
+  line-height: 0.1px;
+}
+
+.home .text-wrapper-4 {
+  letter-spacing: -0.92px;
+  line-height: 72px;
+}
+
+.home .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #909090;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .button {
+  all: unset;
+  box-sizing: border-box;
+  padding: 16px 56px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .label {
+  color: #ffffff;
+  font-size: 16px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .iphone-image {
+  position: relative;
+  width: 406px;
+  height: 632px;
+  background-image: url(https://c.animaapp.com/mbtook90Lxvim4/img/iphone-image.png);
+  background-size: 100% 100%;
+}
+
+.home .smaller-banners {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.home .left-banners {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home .wide-square {
+  display: flex;
+  height: 328px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 48px 0px 334px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.home .play-station {
+  position: absolute;
+  width: 360px;
+  height: 328px;
+  top: 0;
+  left: 0;
+}
+
+.home .title-text {
+  max-width: 404px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 49px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.home .text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #909090;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .squares {
+  display: flex;
+  height: 272px;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.home .square-banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 48px 0px 156px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: #ececec;
+}
+
+.home .title-text-2 {
+  max-width: 168px;
+  width: 160px;
+  height: 143px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: -4.00px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .apple-airpods-max {
+  position: relative;
+  align-self: stretch;
+  margin-top: -17.50px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.home .text-wrapper-7 {
+  font-weight: 300;
+}
+
+.home .text-wrapper-8 {
+  font-weight: 500;
+}
+
+.home .computational-audio {
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -15.50px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #909090;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .hero {
+  position: absolute;
+  width: 104px;
+  height: 272px;
+  top: 0;
+  left: 0;
+}
+
+.home .square-banner-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 48px 0px 156px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: #353535;
+}
+
+.home .title-text-3 {
+  max-width: 176px;
+  width: 160px;
+  height: 144px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: -4.00px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .apple-vision-pro {
+  position: relative;
+  align-self: stretch;
+  margin-top: -9.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.home .text-wrapper-9 {
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 0.1px;
+}
+
+.home .text-wrapper-10 {
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 40px;
+}
+
+.home .text-wrapper-11 {
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -7.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #909090;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .image {
+  position: absolute;
+  width: 136px;
+  height: 190px;
+  top: 41px;
+  left: 0;
+}
+
+.home .big-banner {
+  display: flex;
+  height: 600px;
+  align-items: center;
+  gap: 1px;
+  padding: 44px 264px 44px 56px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ececec;
+}
+
+.home .content-2 {
+  display: flex;
+  max-width: 360px;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .div-2 {
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .macbook-air {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.home .text-wrapper-12 {
+  font-weight: 100;
+  line-height: 56px;
+}
+
+.home .text-wrapper-13 {
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.home .label-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  padding: 16px 56px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #000000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .label-2 {
+  color: #000000;
+  font-size: 16px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .macbook-pro {
+  position: absolute;
+  width: 292px;
+  height: 502px;
+  top: 49px;
+  left: 428px;
+}
+
+.home .category {
+  align-items: flex-start;
+  gap: 32px;
+  padding: 80px 160px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .top {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.24px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.home .arrow-s {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .categories {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .category-card {
+  width: 160px;
+  height: 128px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 24px 52px;
+  background-color: #ececec;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .img-2 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.home .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-16 {
+  position: relative;
+  width: fit-content;
+  margin-left: -30.50px;
+  margin-right: -30.50px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-left: -6.50px;
+  margin-right: -6.50px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-left: -21.00px;
+  margin-right: -21.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  margin-left: -14.50px;
+  margin-right: -14.50px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-20 {
+  position: relative;
+  width: fit-content;
+  margin-left: -1.50px;
+  margin-right: -1.50px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .products {
+  gap: 32px;
+  padding: 56px 160px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .tags {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .selected {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .text-wrapper-21 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.home .line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 2px;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+}
+
+.home .text-wrapper-22 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #8b8b8b;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-23 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #8b8b8b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.home .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .product-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #f6f6f6;
+  border-radius: 9px;
+}
+
+.home .top-section {
+  justify-content: flex-end;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .icon-like {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://c.animaapp.com/mbtook90Lxvim4/img/favorite-duotone.svg);
+  background-size: 100% 100%;
+}
+
+.home .iphone-pro-2 {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.home .text-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .apple-iphone-pro {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--mainblack);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .element {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--mainblack);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.72px;
+  line-height: 24px;
+}
+
+.home .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  padding: 12px 64px;
+  background-color: var(--mainblack);
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .label-3 {
+  color: var(--mainwhite);
+  font-size: 14px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .icon-px-like {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://c.animaapp.com/mbtook90Lxvim4/img/favorite-duotone-5.svg);
+  background-size: 100% 100%;
+}
+
+.home .banners {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .big-banner-2 {
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 376px 32px 56px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home .title-text-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .text-wrapper-24 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 33px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.home .group {
+  position: absolute;
+  width: 360px;
+  height: 327px;
+  top: 22px;
+  left: 0;
+}
+
+.home .overlap-group {
+  position: relative;
+  height: 448px;
+  top: -22px;
+  background-image: url(https://c.animaapp.com/mbtook90Lxvim4/img/image-39.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home .image-2 {
+  position: absolute;
+  width: 243px;
+  height: 236px;
+  top: 113px;
+  left: 117px;
+  object-fit: cover;
+}
+
+.home .big-banner-3 {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 376px 32px 56px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home .image-3 {
+  position: absolute;
+  width: 360px;
+  height: 366px;
+  top: 0;
+  left: 0;
+}
+
+.home .big-banner-4 {
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 376px 32px 56px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home .image-4 {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  top: 0;
+  left: 0;
+}
+
+.home .big-banner-5 {
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 376px 32px 56px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home .text-wrapper-25 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 33px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.home .macbook {
+  position: absolute;
+  width: 360px;
+  height: 376px;
+  top: 0;
+  left: 0;
+}
+
+.home .discount-products {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 80px 160px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.home .text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.home .content-wrapper {
+  height: 448px;
+  background: url(https://c.animaapp.com/mbtook90Lxvim4/img/banner-2.png) 50%
+    50% / cover;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.home .content-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  top: 159px;
+  left: 468px;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .titles-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .big-summer-sale {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: 72px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-27 {
+  font-weight: 100;
+  letter-spacing: -0.52px;
+}
+
+.home .text-wrapper-28 {
+  font-weight: 300;
+  letter-spacing: -0.52px;
+}
+
+.home .text-wrapper-29 {
+  font-weight: 500;
+  letter-spacing: -0.52px;
+}
+
+.home .text-wrapper-30 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #787878;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.home .footer {
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 104px 160px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #000000;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home .info {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 113px 113px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home .logo-text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .logo-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .text-wrapper-31 {
+  position: relative;
+  width: 384px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #cfcfcf;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 23.9px;
+}
+
+.home .footer-navigation {
+  width: 623px;
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home .section {
+  display: flex;
+  flex-direction: column;
+  width: 295.5px;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+}
+
+.home .text-wrapper-32 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-33 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #cfcfcf;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.home .social-icons {
+  display: flex;
+  width: 173px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .img-3 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  background-color: #dfdfdf;
+  overflow: hidden;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 160px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  margin-left: -1px;
+  margin-right: -1px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #b5b5b5;
+}
+
+.logo {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.search-field {
+  display: flex;
+  width: 372px;
+  height: 56px;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.icon-search {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.search-field input[type="search"] {
+  border: none;
+  background: transparent;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #646464;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18px;
+  width: 100%;
+}
+
+.search-field input[type="search"]::placeholder {
+  opacity: 0.5;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 52px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  color: #000000;
+}
+
+.navbar a.text-wrapper-2 {
+  opacity: 0.3;
+  color: #000000;
+}
+
+.icons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.img {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.icon-cart {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+}
+
+.cart {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px 213px;
+  padding: 0px 160px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    95deg,
+    rgba(33, 28, 36, 1) 0%,
+    rgba(33, 28, 36, 1) 100%
+  );
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  min-width: 400px;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.titles {
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  opacity: 0.4;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.iphone-pro {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: -0.96px;
+  line-height: 96px;
+}
+
+.span {
+  font-weight: 100;
+  letter-spacing: -0.92px;
+  line-height: 0.1px;
+}
+
+.text-wrapper-4 {
+  letter-spacing: -0.92px;
+  line-height: 72px;
+}
+
+.p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #909090;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 56px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  background: none;
+  text-decoration: none;
+}
+
+.label {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.iphone-image {
+  position: relative;
+  width: 406px;
+  height: 632px;
+  background-image: url(https://c.animaapp.com/mbtook90Lxvim4/img/iphone-image.png);
+  background-size: 100% 100%;
+}
+
+.smaller-banners {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.left-banners {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.wide-square {
+  display: flex;
+  height: 328px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 48px 0px 334px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.play-station {
+  position: absolute;
+  width: 360px;
+  height: 328px;
+  top: 0;
+  left: 0;
+}
+
+.title-text {
+  max-width: 404px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 49px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #909090;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.squares {
+  display: flex;
+  height: 272px;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.square-banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 48px 0px 156px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: #ececec;
+}
+
+.title-text-2 {
+  max-width: 168px;
+  width: 160px;
+  height: 143px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: -4px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.apple-airpods-max {
+  position: relative;
+  align-self: stretch;
+  margin-top: -17.5px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.text-wrapper-7 {
+  font-weight: 300;
+}
+
+.text-wrapper-8 {
+  font-weight: 500;
+}
+
+.computational-audio {
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -15.5px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #909090;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.hero {
+  position: absolute;
+  width: 104px;
+  height: 272px;
+  top: 0;
+  left: 0;
+}
+
+.square-banner-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 48px 0px 156px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: #353535;
+}
+
+.title-text-3 {
+  max-width: 176px;
+  width: 160px;
+  height: 144px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: -4px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.apple-vision-pro {
+  position: relative;
+  align-self: stretch;
+  margin-top: -9px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.text-wrapper-9 {
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 0.1px;
+}
+
+.text-wrapper-10 {
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 40px;
+}
+
+.text-wrapper-11 {
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -7px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #909090;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.image {
+  position: absolute;
+  width: 136px;
+  height: 190px;
+  top: 41px;
+  left: 0;
+}
+
+.big-banner {
+  display: flex;
+  height: 600px;
+  align-items: center;
+  gap: 1px;
+  padding: 44px 264px 44px 56px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ececec;
+}
+
+.content-2 {
+  display: flex;
+  max-width: 360px;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.div-2 {
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.macbook-air {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.text-wrapper-12 {
+  font-weight: 100;
+  line-height: 56px;
+}
+
+.text-wrapper-13 {
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.label-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 56px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  text-decoration: none;
+}
+
+.label-2 {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.macbook-pro {
+  position: absolute;
+  width: 292px;
+  height: 502px;
+  top: 49px;
+  left: 428px;
+}
+
+.category {
+  align-items: flex-start;
+  gap: 32px;
+  padding: 80px 160px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.top {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.24px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.arrow-s {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.categories {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.category-card {
+  width: 160px;
+  height: 128px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 24px 52px;
+  background-color: #ececec;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-decoration: none;
+}
+
+.img-2 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.text-wrapper-15,
+.text-wrapper-16,
+.text-wrapper-17,
+.text-wrapper-18,
+.text-wrapper-19,
+.text-wrapper-20 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.text-wrapper-16 {
+  margin-left: -30.5px;
+  margin-right: -30.5px;
+}
+
+.text-wrapper-17 {
+  margin-left: -6.5px;
+  margin-right: -6.5px;
+}
+
+.text-wrapper-18 {
+  margin-left: -21px;
+  margin-right: -21px;
+}
+
+.text-wrapper-19 {
+  margin-left: -14.5px;
+  margin-right: -14.5px;
+}
+
+.text-wrapper-20 {
+  margin-left: -1.5px;
+  margin-right: -1.5px;
+}
+
+.products {
+  gap: 32px;
+  padding: 56px 160px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.selected {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+.text-wrapper-21 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 2px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.text-wrapper-22,
+.text-wrapper-23 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #8b8b8b;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #f6f6f6;
+  border-radius: 9px;
+}
+
+.top-section {
+  justify-content: flex-end;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.icon-like,
+.icon-px-like {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://c.animaapp.com/mbtook90Lxvim4/img/favorite-duotone.svg);
+  background-size: 100% 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon-px-like {
+  background-image: url(https://c.animaapp.com/mbtook90Lxvim4/img/favorite-duotone-5.svg);
+}
+
+.iphone-pro-2 {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.text-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.apple-iphone-pro {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--mainblack);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.element {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--mainblack);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.72px;
+  line-height: 24px;
+}
+
+.div-wrapper {
+  padding: 12px 64px;
+  background-color: var(--mainblack);
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+.label-3 {
+  color: var(--mainwhite);
+  font-size: 14px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.banners {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.big-banner-2,
+.big-banner-3,
+.big-banner-4,
+.big-banner-5 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 376px 32px 56px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.big-banner-2 {
+  background-color: #ffffff;
+}
+
+.big-banner-3 {
+  background-color: #f8f8f8;
+}
+
+.big-banner-4 {
+  background-color: #eaeaea;
+}
+
+.big-banner-5 {
+  background-color: #2b2b2b;
+}
+
+.title-text-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.text-wrapper-24,
+.text-wrapper-25 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  font-size: 33px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.text-wrapper-24 {
+  color: #000000;
+}
+
+.text-wrapper-25 {
+  color: #ffffff;
+}
+
+.group {
+  position: absolute;
+  width: 360px;
+  height: 327px;
+  top: 22px;
+  left: 0;
+}
+
+.overlap-group {
+  position: relative;
+  height: 448px;
+  top: -22px;
+  background-image: url(https://c.animaapp.com/mbtook90Lxvim4/img/image-39.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.image-2 {
+  position: absolute;
+  width: 243px;
+  height: 236px;
+  top: 113px;
+  left: 117px;
+  object-fit: cover;
+}
+
+.image-3,
+.image-4,
+.macbook {
+  position: absolute;
+  width: 360px;
+  top: 0;
+  left: 0;
+}
+
+.image-3 {
+  height: 366px;
+}
+
+.image-4,
+.macbook {
+  height: 360px;
+}
+
+.macbook {
+  height: 376px;
+}
+
+.discount-products {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 80px 160px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.content-wrapper {
+  height: 448px;
+  background: url(https://c.animaapp.com/mbtook90Lxvim4/img/banner-2.png) 50%
+    50% / cover;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.content-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  top: 159px;
+  left: 468px;
+  flex-direction: column;
+  position: relative;
+}
+
+.titles-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.big-summer-sale {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: 72px;
+  white-space: nowrap;
+}
+
+.text-wrapper-27 {
+  font-weight: 100;
+  letter-spacing: -0.52px;
+}
+
+.text-wrapper-28 {
+  font-weight: 300;
+  letter-spacing: -0.52px;
+}
+
+.text-wrapper-29 {
+  font-weight: 500;
+  letter-spacing: -0.52px;
+}
+
+.text-wrapper-30 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #787878;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.footer {
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 104px 160px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #000000;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.info {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 113px 113px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.logo-text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.logo-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.text-wrapper-31 {
+  position: relative;
+  width: 384px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #cfcfcf;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 23.9px;
+}
+
+.footer-navigation {
+  width: 623px;
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 295.5px;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+}
+
+.text-wrapper-32 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.text-wrapper-33 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #cfcfcf;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  width: 173px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.img-3 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>E-commerce Home Page</title>
+    <!-- Enlaces a los CSS originales -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/globals.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleguide.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <div class="home">
+      <header class="header-top">
+        <img class="logo" src="https://c.animaapp.com/mbtook90Lxvim4/img/logo-1.svg" alt="Company Logo" />
+        <form class="search-field" role="search">
+          <img
+            class="icon-search"
+            src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-32px-search.svg"
+            alt="Search Icon"
+          />
+          <input type="search" placeholder="Search" aria-label="Search products" />
+        </form>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#" class="text-wrapper-2">About</a></li>
+            <li><a href="#" class="text-wrapper-2">Contact Us</a></li>
+            <li><a href="#" class="text-wrapper-2">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <button class="icon-button" aria-label="Favorites">
+            <img
+              class="img"
+              src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-32px-favorites.svg"
+              alt="Favorites Icon"
+            />
+          </button>
+          <button class="icon-button icon-cart" aria-label="Shopping Cart">
+            <img class="cart" src="https://c.animaapp.com/mbtook90Lxvim4/img/cart1.svg" alt="Cart Icon" />
+          </button>
+          <button class="icon-button" aria-label="User Account">
+            <img class="img" src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-32px-user.svg" alt="User Icon" />
+          </button>
+        </div>
+      </header>
+      <main>
+        <section class="banner">
+          <div class="content">
+            <div class="titles">
+              <h2 class="text-wrapper-3">Pro.Beyond.</h2>
+              <h1 class="iphone-pro"><span class="span">IPhone 14 </span> <span class="text-wrapper-4">Pro</span></h1>
+            </div>
+            <p class="p">Created to change everything for the better. For everyone</p>
+            <a href="#" class="button"><span class="label">Shop Now</span></a>
+          </div>
+          <div class="iphone-image" aria-hidden="true"></div>
+        </section>
+        <section class="smaller-banners">
+          <div class="left-banners">
+            <div class="wide-square">
+              <img
+                class="play-station"
+                src="https://c.animaapp.com/mbtook90Lxvim4/img/playstation.png"
+                alt="PlayStation 5"
+              />
+              <div class="title-text">
+                <h3 class="text-wrapper-5">Playstation 5</h3>
+                <p class="text-wrapper-6">
+                  Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation
+                  experience.
+                </p>
+              </div>
+            </div>
+            <div class="squares">
+              <div class="square-banner">
+                <div class="title-text-2">
+                  <h3 class="apple-airpods-max">
+                    <span class="text-wrapper-7">Apple <br />AirPods </span> <span class="text-wrapper-8">Max</span>
+                  </h3>
+                  <p class="computational-audio">Computational audio. Listen, it's powerful</p>
+                </div>
+                <img
+                  class="hero"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/hero--gnfk5g59t0qe-xlarge-2x-1.png"
+                  alt="Apple AirPods Max"
+                />
+              </div>
+              <div class="square-banner-2">
+                <div class="title-text-3">
+                  <h3 class="apple-vision-pro">
+                    <span class="text-wrapper-9">Apple <br />Vision </span> <span class="text-wrapper-10">Pro</span>
+                  </h3>
+                  <p class="text-wrapper-11">An immersive way to experience entertainment</p>
+                </div>
+                <img
+                  class="image"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/image-36.png"
+                  alt="Apple Vision Pro"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="big-banner">
+            <div class="content-2">
+              <div class="div-2">
+                <h3 class="macbook-air">
+                  <span class="text-wrapper-12">Macbook </span> <span class="text-wrapper-13">Air</span>
+                </h3>
+                <p class="text-wrapper-6">
+                  The new 15-inch MacBook Air makes room for more of what you love with a spacious Liquid Retina
+                  display.
+                </p>
+              </div>
+              <a href="#" class="label-wrapper"><span class="label-2">Shop Now</span></a>
+            </div>
+            <img
+              class="macbook-pro"
+              src="https://c.animaapp.com/mbtook90Lxvim4/img/macbook-pro-14.png"
+              alt="MacBook Pro"
+            />
+          </div>
+        </section>
+         <section class="category">
+          <div class="top">
+            <h2 class="text-wrapper-14">Browse By Category</h2>
+            <div class="arrow-s">
+              <button class="icon-button" aria-label="Previous category">
+                <img
+                  class="img"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-32px-arrow-1.svg"
+                  alt="Left Arrow"
+                />
+              </button>
+              <button class="icon-button" aria-label="Next category">
+                <img
+                  class="img"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-32px-arrow.svg"
+                  alt="Right Arrow"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="categories">
+            <a href="#" class="category-card">
+              <img class="img-2" src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-phones.svg" alt="Phones Icon" />
+              <span class="text-wrapper-15">Phones</span>
+            </a>
+            <a href="#" class="category-card">
+              <img
+                class="img-2"
+                src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-smart-watches.svg"
+                alt="Smart Watches Icon"
+              />
+              <span class="text-wrapper-16">Smart Watches</span>
+            </a>
+            <a href="#" class="category-card">
+              <img class="img-2" src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-cameras.svg" alt="Cameras Icon" />
+              <span class="text-wrapper-17">Cameras</span>
+            </a>
+            <a href="#" class="category-card">
+              <img
+                class="img-2"
+                src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-headphones.svg"
+                alt="Headphones Icon"
+              />
+              <span class="text-wrapper-18">Headphones</span>
+            </a>
+            <a href="#" class="category-card">
+              <img
+                class="img-2"
+                src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-computers.svg"
+                alt="Computers Icon"
+              />
+              <span class="text-wrapper-19">Computers</span>
+            </a>
+            <a href="#" class="category-card">
+              <img class="img-2" src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-gaming.svg" alt="Gaming Icon" />
+              <span class="text-wrapper-20">Gaming</span>
+            </a>
+          </div>
+        </section>
+        <section class="products">
+          <nav class="tags">
+            <a href="#" class="selected">
+              <span class="text-wrapper-21">New Arrival</span>
+              <img class="line" src="https://c.animaapp.com/mbtook90Lxvim4/img/line.svg" alt="" aria-hidden="true" />
+            </a>
+            <a href="#" class="text-wrapper-22">Bestseller</a>
+            <a href="#" class="text-wrapper-23">Featured Products</a>
+          </nav>
+          <div class="div-2">
+            <div class="row">
+              <article class="product-card">
+                <div class="top-section">
+                  <button class="icon-like" aria-label="Add to favorites"></button>
+                </div>
+                <img
+                  class="iphone-pro-2"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1.png"
+                  alt="iPhone 14 Pro Max"
+                />
+                <div class="text-icon">
+                  <div class="div-2">
+                    <h3 class="apple-iphone-pro">Apple iPhone 14 Pro Max 128GB Deep Purple</h3>
+                    <p class="element">$900</p>
+                  </div>
+                  <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+                </div>
+              </article>
+              <article class="product-card">
+                <div class="top-section">
+                  <button class="icon-like" aria-label="Add to favorites"></button>
+                </div>
+                <img
+                  class="iphone-pro-2"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-1.png"
+                  alt="Blackmagic Pocket Cinema Camera 6K"
+                />
+                <div class="text-icon">
+                  <div class="div-2">
+                    <h3 class="apple-iphone-pro">Blackmagic Pocket Cinema Camera 6k</h3>
+                    <p class="element">$2535</p>
+                  </div>
+                  <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+                </div>
+              </article>
+              <article class="product-card">
+                <div class="top-section">
+                  <button class="icon-like" aria-label="Add to favorites"></button>
+                </div>
+                <img
+                  class="iphone-pro-2"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-10.png"
+                  alt="Apple Watch Series 9"
+                />
+                <div class="text-icon">
+                  <div class="div-2">
+                    <h3 class="apple-iphone-pro">Apple Watch Series 9 GPS 41mm Starlight Aluminium</h3>
+                    <p class="element">$399</p>
+                  </div>
+                  <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+                </div>
+              </article>
+              <article class="product-card">
+                <div class="top-section">
+                  <button class="icon-like" aria-label="Add to favorites"></button>
+                </div>
+                <img
+                  class="iphone-pro-2"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-9.png"
+                  alt="AirPods Max"
+                />
+                <div class="text-icon">
+                  <div class="div-2">
+                    <h3 class="apple-iphone-pro">AirPods Max Silver<br />Starlight Aluminium</h3>
+                    <p class="element">$549</p>
+                  </div>
+                  <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+                </div>
+              </article>
+            </div>
+            <div class="row">
+              <article class="product-card">
+                <div class="top-section">
+                  <button class="icon-like" aria-label="Add to favorites"></button>
+                </div>
+                <img
+                  class="iphone-pro-2"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-4.png"
+                  alt="Samsung Galaxy Watch6 Classic"
+                />
+                <div class="text-icon">
+                  <div class="div-2">
+                    <h3 class="apple-iphone-pro">Samsung Galaxy Watch6 Classic 47mm Black</h3>
+                    <p class="element">$369</p>
+                  </div>
+                  <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+                </div>
+              </article>
+              <article class="product-card">
+                <div class="top-section">
+                  <button class="icon-px-like" aria-label="Add to favorites"></button>
+                </div>
+                <img
+                  class="iphone-pro-2"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-5.png"
+                  alt="Galaxy Z Fold5"
+                />
+                <div class="text-icon">
+                  <div class="div-2">
+                    <h3 class="apple-iphone-pro">Galaxy Z Fold5 Unlocked | 256GB | Phantom Black</h3>
+                    <p class="element">$1799</p>
+                  </div>
+                  <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+                </div>
+              </article>
+              <article class="product-card">
+                <div class="top-section">
+                  <button class="icon-like" aria-label="Add to favorites"></button>
+                </div>
+                <img
+                  class="iphone-pro-2"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-6.png"
+                  alt="Galaxy Buds FE"
+                />
+                <div class="text-icon">
+                  <div class="div-2">
+                    <h3 class="apple-iphone-pro">Galaxy Buds FE<br />Graphite</h3>
+                    <p class="element">$99.99</p>
+                  </div>
+                  <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+                </div>
+              </article>
+              <article class="product-card">
+                <div class="top-section">
+                  <button class="icon-like" aria-label="Add to favorites"></button>
+                </div>
+                <img
+                  class="iphone-pro-2"
+                  src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-7.png"
+                  alt="Apple iPad 9"
+                />
+                <div class="text-icon">
+                  <div class="div-2">
+                    <h3 class="apple-iphone-pro">Apple iPad 9 10.2" 64GB Wi-Fi Silver (MK2L3) 2021</h3>
+                    <p class="element">$398</p>
+                  </div>
+                  <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="banners">
+          <div class="big-banner-2">
+            <div class="title-text-4">
+              <h2 class="text-wrapper-24">Popular Products</h2>
+              <p class="text-wrapper-6">
+                iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of
+                use.
+              </p>
+              <a href="#" class="label-wrapper"><span class="label-2">Shop Now</span></a>
+            </div>
+            <div class="group">
+              <div class="overlap-group">
+                <img class="image-2" src="https://c.animaapp.com/mbtook90Lxvim4/img/image-12.png" alt="iPad" />
+              </div>
+            </div>
+          </div>
+          <div class="big-banner-3">
+            <div class="title-text-4">
+              <h2 class="text-wrapper-24">Ipad Pro</h2>
+              <p class="text-wrapper-6">
+                iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of
+                use.
+              </p>
+              <a href="#" class="label-wrapper"><span class="label-2">Shop Now</span></a>
+            </div>
+            <img class="image-3" src="https://c.animaapp.com/mbtook90Lxvim4/img/image-64.png" alt="iPad Pro" />
+          </div>
+          <div class="big-banner-4">
+            <div class="title-text-4">
+              <h2 class="text-wrapper-24">Samsung Galaxy</h2>
+              <p class="text-wrapper-6">
+                iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of
+                use.
+              </p>
+              <a href="#" class="label-wrapper"><span class="label-2">Shop Now</span></a>
+            </div>
+            <img class="image-4" src="https://c.animaapp.com/mbtook90Lxvim4/img/image-41.png" alt="Samsung Galaxy" />
+          </div>
+          <div class="big-banner-5">
+            <div class="title-text-4">
+              <h2 class="text-wrapper-25">Macbook Pro</h2>
+              <p class="text-wrapper-6">
+                iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of
+                use.
+              </p>
+              <a href="#" class="button"><span class="label">Shop Now</span></a>
+            </div>
+            <img class="macbook" src="https://c.animaapp.com/mbtook90Lxvim4/img/macbook-1.png" alt="MacBook Pro" />
+          </div>
+        </section>
+        <section class="discount-products">
+          <h2 class="text-wrapper-26">Discounts up to -50%</h2>
+          <div class="row">
+            <article class="product-card">
+              <div class="top-section">
+                <button class="icon-like" aria-label="Add to favorites"></button>
+              </div>
+              <img
+                class="iphone-pro-2"
+                src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-8.png"
+                alt="iPhone 14 Pro"
+              />
+              <div class="text-icon">
+                <div class="div-2">
+                  <h3 class="apple-iphone-pro">Apple iPhone 14 Pro 512GB Gold (MQ233)</h3>
+                  <p class="element">$1437</p>
+                </div>
+                <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="top-section">
+                <button class="icon-like" aria-label="Add to favorites"></button>
+              </div>
+              <img
+                class="iphone-pro-2"
+                src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-9.png"
+                alt="AirPods Max"
+              />
+              <div class="text-icon">
+                <div class="div-2">
+                  <h3 class="apple-iphone-pro">AirPods Max Silver<br />Starlight Aluminium</h3>
+                  <p class="element">$549</p>
+                </div>
+                <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="top-section">
+                <button class="icon-like" aria-label="Add to favorites"></button>
+              </div>
+              <img
+                class="iphone-pro-2"
+                src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-10.png"
+                alt="Apple Watch Series 9"
+              />
+              <div class="text-icon">
+                <div class="div-2">
+                  <h3 class="apple-iphone-pro">Apple Watch Series 9 GPS 41mm Starlight Aluminium</h3>
+                  <p class="element">$399</p>
+                </div>
+                <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="top-section">
+                <button class="icon-like" aria-label="Add to favorites"></button>
+              </div>
+              <img
+                class="iphone-pro-2"
+                src="https://c.animaapp.com/mbtook90Lxvim4/img/iphone-14-pro-1-11.png"
+                alt="iPhone 14 Pro"
+              />
+              <div class="text-icon">
+                <div class="div-2">
+                  <h3 class="apple-iphone-pro">Apple iPhone 14 Pro 1TB Gold (MQ2V3)</h3>
+                  <p class="element">$1499</p>
+                </div>
+                <a href="#" class="div-wrapper"><span class="label-3">Buy Now</span></a>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="content-wrapper">
+          <div class="content-3">
+            <div class="titles-2">
+              <h2 class="big-summer-sale">
+                <span class="text-wrapper-27">Big Summer</span>
+                <span class="text-wrapper-28"> </span>
+                <span class="text-wrapper-29">Sale</span>
+              </h2>
+              <p class="text-wrapper-30">Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
+            </div>
+            <a href="#" class="button"><span class="label">Shop Now</span></a>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+         <div class="info">
+          <div class="logo-text">
+            <div class="logo-wrapper">
+              <img class="logo" src="https://c.animaapp.com/mbtook90Lxvim4/img/logo.svg" alt="Company Logo" />
+            </div>
+            <p class="text-wrapper-31">
+              We are a residential interior design firm located in Portland. Our boutique-studio offers more than
+            </p>
+          </div>
+          <nav class="footer-navigation">
+            <div class="section">
+              <h3 class="text-wrapper-32">Services</h3>
+              <ul>
+                <li><a href="#" class="text-wrapper-33">Bonus program</a></li>
+                <li><a href="#" class="text-wrapper-33">Gift cards</a></li>
+                <li><a href="#" class="text-wrapper-33">Credit and payment</a></li>
+                <li><a href="#" class="text-wrapper-33">Service contracts</a></li>
+                <li><a href="#" class="text-wrapper-33">Non-cash account</a></li>
+                <li><a href="#" class="text-wrapper-33">Payment</a></li>
+              </ul>
+            </div>
+            <div class="section">
+              <h3 class="text-wrapper-32">Assistance to the buyer</h3>
+              <ul>
+                <li><a href="#" class="text-wrapper-33">Find an order</a></li>
+                <li><a href="#" class="text-wrapper-33">Terms of delivery</a></li>
+                <li><a href="#" class="text-wrapper-33">Exchange and return of goods</a></li>
+                <li><a href="#" class="text-wrapper-33">Guarantee</a></li>
+                <li><a href="#" class="text-wrapper-33">Frequently asked questions</a></li>
+                <li><a href="#" class="text-wrapper-33">Terms of use of the site</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="social-icons">
+          <a href="#" aria-label="Twitter">
+            <img
+              class="img-3"
+              src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-16px-twitter.svg"
+              alt="Twitter Icon"
+            />
+          </a>
+          <a href="#" aria-label="Facebook">
+            <img
+              class="img-3"
+              src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-16px-facebook.svg"
+              alt="Facebook Icon"
+            />
+          </a>
+          <a href="#" aria-label="TikTok">
+            <img class="img-3" src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-16px-tiktok.svg" alt="TikTok Icon" />
+          </a>
+          <a href="#" aria-label="Instagram">
+            <img
+              class="img-3"
+              src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-16px-instagram.svg"
+              alt="Instagram Icon"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
