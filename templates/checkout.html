@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Checkout – Tienda{% endblock %}
+
+{% block content %}
+<main class="checkout-page">
+  <div class="container-fixed">
+    <div class="checkout-grid">
+
+      <!-- IZQUIERDA: RESUMEN -->
+      <section class="checkout-summary">
+        <h2>Summary</h2>
+        <ul class="summary-list">
+          {% for item in items %}
+          <li class="summary-item">
+            <img src="{{ item.imagen }}" alt="{{ item.nombre }}">
+            <div class="summary-info">
+              <p class="summary-name">{{ item.nombre }}</p>
+              <p class="summary-qty">x {{ item.cantidad }}</p>
+            </div>
+            <p class="summary-price">${{ item.total }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+        <div class="summary-footer">
+          <p>Shipment method<br><strong>Free</strong></p>
+          <p>Subtotal<br><strong>${{ subtotal }}</strong></p>
+          <p>Total<br><strong>${{ subtotal }}</strong></p>
+        </div>
+      </section>
+
+      <!-- DERECHA: TARJETA + FORMULARIO -->
+      <section class="checkout-payment">
+        <div class="checkout-illustration">
+          <img src="{{ url_for('static', filename='img/checkoutImg.svg') }}" alt="Credit Card" />
+        </div>
+        <form class="payment-form" method="post" action="{{ url_for('checkout') }}">
+          <h2>Payment</h2>
+          <label for="cardholder">Cardholder Name</label>
+          <input id="cardholder" name="cardholder" type="text" placeholder="John Doe">
+          <label for="cardnumber">Card Number</label>
+          <input id="cardnumber" name="cardnumber" type="text" placeholder="0000 0000 0000 0000">
+          <div class="expiry-cvv">
+            <div>
+              <label for="expdate">Exp. Date</label>
+              <input id="expdate" name="expdate" type="text" placeholder="MM/YY">
+            </div>
+            <div>
+              <label for="cvv">CVV</label>
+              <input id="cvv" name="cvv" type="text" placeholder="123">
+            </div>
+          </div>
+          <div class="payment-buttons">
+            <a href="{{ url_for('view_cart') }}" class="btn btn--outline">Back</a>
+            <button type="submit" class="btn btn--primary">Pay</button>
+          </div>
+        </form>
+      </section>
+
+    </div>
+  </div>
+</main>
+{% endblock %}

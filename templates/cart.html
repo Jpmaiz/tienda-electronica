@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Carrito – Tienda{% endblock %}
+
+{% block content %}
+<main class="cart-page">
+  <div class="container-fixed">
+    <h1>Shopping Cart</h1>
+
+    {% if items %}
+      <div class="cart-grid">
+        <!-- Columna de productos -->
+        <div class="cart-items">
+          {% for item in items %}
+          <div class="cart-item">
+            <img src="{{ item.imagen }}" alt="{{ item.nombre }}">
+            <div class="item-info">
+              <h2>{{ item.nombre }}</h2>
+              <p class="item-id">#{{ item.id }}</p>
+              <div class="item-qty">
+                <span>Cantidad:</span>
+                <button class="qty-btn" onclick="location.href='{{ url_for('update_cart', id=item.id, op='decrease') }}'">–</button>
+                <span>{{ item.cantidad }}</span>
+                <button class="qty-btn" onclick="location.href='{{ url_for('update_cart', id=item.id, op='increase') }}'">+</button>
+              </div>
+              <p class="item-price">${{ item.total }}</p>
+              <a href="{{ url_for('remove_from_cart', id=item.id) }}" class="remove-btn">×</a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        <!-- Columna de resumen -->
+        <aside class="cart-summary">
+          <h2>Order Summary</h2>
+          <p>Subtotal: ${{ subtotal }}</p>
+          <p><strong>Total: ${{ subtotal }}</strong></p>
+          <a href="{{ url_for('checkout') }}" class="btn btn--primary">Checkout</a>
+        </aside>
+      </div>
+    {% else %}
+      <p>Tu carrito está vacío.</p>
+      <a href="{{ url_for('home') }}" class="btn--outline">Seguir comprando</a>
+    {% endif %}
+  </div>
+</main>
+{% endblock %}

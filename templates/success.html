@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Checkout Success – Tienda{% endblock %}
+
+{% block content %}
+<main class="checkout-success-page">
+  <div class="container-fixed success-container">
+    <img src="{{ url_for('static', filename='img/success.svg') }}" alt="Success" class="success-img">
+    <h1 class="success-title">Checkout Success</h1>
+    <!-- Puedes agregar aquí un botón para volver al home o ver pedidos -->
+    <a href="{{ url_for('home') }}" class="btn btn--primary">Back to Home</a>
+  </div>
+</main>
+{% endblock %}

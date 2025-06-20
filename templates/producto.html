@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}{{ producto.nombre }} – Tienda{% endblock %}
+
+{% block content %}
+<main class="product-detail">
+  <div class="container-fixed">
+    <div class="product-detail__grid">
+      
+      <!-- Imagen del producto -->
+      <figure class="product-detail__image">
+        <img src="{{ producto.imagen }}" alt="{{ producto.nombre }}">
+      </figure>
+
+      <!-- Información del producto -->
+      <div class="product-detail__info">
+        <h1 class="product-detail__title">{{ producto.nombre }}</h1>
+        <p class="product-detail__price">${{ producto.precio }}</p>
+        <p class="product-detail__desc">{{ producto.descripcion }}</p>
+
+        <!-- Botones de acción -->
+        <div class="product-detail__actions">
+          <a href="#" class="btn btn--outline">Checkout Now</a>
+            <form method="post" action="{{ url_for('add_to_cart', id=producto.id) }}">
+              <button type="submit" class="btn btn--primary">Add to Cart</button>
+            </form>
+        </div> 
+
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}

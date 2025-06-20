@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}Tienda – Electrónica{% endblock %}</title>
+
+    <!-- Estilos generales -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/globals.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleguide.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+
+  <body>
+
+    <!-- ===== HEADER COMÚN ===== -->
+    <header class="header-top">
+      <div class="header-inner">
+        <!-- Logo -->
+        <a href="{{ url_for('home') }}" class="logo">
+          <img src="https://c.animaapp.com/mbtook90Lxvim4/img/logo-1.svg" alt="Cyber Logo">
+        </a>
+
+        <!-- Buscador -->
+        <form class="search-field" role="search">
+          <img class="icon-search"
+               src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-32px-search.svg"
+               alt="Buscar">
+          <input type="search" name="q" placeholder="Search products…">
+        </form>
+
+        <!-- Navegación principal -->
+        <nav class="navbar">
+          <a href="{{ url_for('home') }}" class="nav-item{% if request.endpoint=='home' %} active{% endif %}">Home</a>
+          <a href="#" class="nav-item">About</a>
+          <a href="#" class="nav-item">Contact</a>
+          <a href="#" class="nav-item">Blog</a>
+        </nav>
+
+        <!-- Íconos de acción -->
+        <!-- Íconos de acción -->
+          <div class="icons">
+            <a href="#"><img src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-32px-favorites.svg" alt="Favoritos"></a>
+
+            <!-- Enlace al carrito -->
+            <a href="{{ url_for('view_cart') }}">
+              <img src="https://c.animaapp.com/mbtook90Lxvim4/img/cart1.svg" alt="Carrito">
+            </a>
+
+            <a href="#"><img src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-32px-user.svg" alt="Usuario"></a>
+          </div>
+      </div>
+    </header>
+
+    <!-- ===== BLOQUE VARIABLE ===== -->
+    {% block content %}
+    {% endblock %}
+
+    <!-- ===== FOOTER COMÚN ===== -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="info">
+          <div class="logo-text">
+            <img class="logo"
+                 src="https://c.animaapp.com/mbtook90Lxvim4/img/logo.svg"
+                 alt="Cyber Logo">
+            <p>We are a top electronics store offering the best selection and service.</p>
+          </div>
+          <nav class="footer-navigation">
+            <div class="section">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#">Bonus Program</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Credit & Payment</a></li>
+                <li><a href="#">Service Contracts</a></li>
+              </ul>
+            </div>
+            <div class="section">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="#">Find Order</a></li>
+                <li><a href="#">Shipping Terms</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="social-icons">
+          <a href="#"><img src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-16px-twitter.svg"   alt="Twitter"></a>
+          <a href="#"><img src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-16px-facebook.svg"  alt="Facebook"></a>
+          <a href="#"><img src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-16px-tiktok.svg"    alt="TikTok"></a>
+          <a href="#"><img src="https://c.animaapp.com/mbtook90Lxvim4/img/icon-16px-instagram.svg" alt="Instagram"></a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
