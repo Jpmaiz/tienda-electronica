@@ -58,9 +58,11 @@ def home():
     if filtro == 'new':
         # Nuevas llegadas: orden descendente por _id
         cursor = db.productos.find({}, projection).sort('_id', -1).limit(8)
-    else:  # 'bestseller'
+    else: #'bestseller'
         # Más vendidos: orden descendente por ventas (debes tener ese campo en tu doc)
-        cursor = db.productos.find({}, projection).sort('ventas', -1).limit(8)
+         cursor = db.productos.find(
+        {'tipo': 'bestseller'}, projection
+    ).sort('_id', -1).limit(8)
 
     productos = list(cursor)
 
@@ -75,7 +77,8 @@ def home():
 
 #Esta función se activa cuando el usuario entra a la página principal.
 #Primero, recupera todas las categorías de productos desde la colección categorias para mostrarlas en el menú de navegación.
-#Luego, lee el filtro de productos seleccionado por el usuario en la URL (por ejemplo, /?filter=bestseller), y si no se especifica o es incorrecto, muestra por defecto los productos nuevos (new).
+#Luego, lee el filtro de productos seleccionado por el usuario en la URL (por ejemplo, /?filter=bestseller), y si no se especifica o es incorrecto,
+#  muestra por defecto los productos nuevos (new).
 #Para mostrar los productos, construyo una consulta diferente según el filtro:
 
 #Si es “new”, muestra los productos más recientes usando el campo _id (MongoDB genera IDs de forma creciente con la fecha).
@@ -264,8 +267,18 @@ def remove_from_cart(id):
 @app.route('/checkout', methods=['GET', 'POST'])
 def checkout():
     if request.method == 'POST':
-        # Aquí podrías procesar los datos del formulario si quieres guardarlos
-        # Pero como es ficticio, simplemente redirige al success
+        # 1. Recupera el carrito de la sesión
+        cart = session.get('cart', {})
+        # 2. Elimina cada producto del carrito de la base de datos
+        for id_str in cart:
+            try:
+                oid = ObjectId(id_str)
+                db.productos.delete_one({'_id': oid})
+            except Exception:
+                continue
+        # 3. Limpia el carrito
+        session.pop('cart', None)
+        # 4. Redirige a la página de éxito
         return redirect(url_for('checkout_success'))
 
     # GET: sigue mostrando el resumen y el formulario
@@ -282,7 +295,7 @@ def checkout():
             continue
         prod = db.productos.find_one(
             {'_id': oid},
-            {'nombre':1, 'precio':1, 'imagen':1}
+            {'nombre': 1, 'precio': 1, 'imagen': 1}
         )
         if not prod:
             continue
@@ -300,11 +313,13 @@ def checkout():
     return render_template('checkout.html', items=items, subtotal=subtotal)
 
 
-#Esta ruta sirve tanto para mostrar el formulario de pago (método GET) como para procesar el envío (método POST).
-#Si el usuario hace clic en “Pay”, se envía el formulario (POST) y se redirige a una página de confirmación.
-#Si es una visita normal (GET), consulta los productos del carrito y muestra el resumen y el formulario de pago al usuario.
-#Es la última revisión del pedido antes de pagar.
 
+
+#La función checkout gestiona tanto la visualización del resumen de compra como la finalización de la compra en una tienda web. 
+#Cuando el usuario visita la página (GET), recupera todos los productos que tiene en su carrito de compras desde la sesión, 
+#obtiene sus detalles desde la base de datos y calcula el subtotal, mostrando así el formulario de pago. Cuando el usuario confirma el pago (POST), 
+#el sistema elimina de la base de datos cada producto comprado, limpia el carrito de la sesión para dejarlo vacío y redirige al usuario a una página de éxito 
+#que confirma que la compra fue realizada. Así, esta función centraliza la lógica para el proceso final de la compra y la actualización del inventario en la tienda.
 
 @app.route('/checkout/success')
 def checkout_success():
